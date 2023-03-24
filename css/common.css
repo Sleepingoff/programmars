@@ -1,0 +1,61 @@
+body{
+    font-size: 16px;
+}
+.flexbox{
+    display: flex;
+}
+.va{
+    margin: auto 0;
+}
+.ha{
+    margin: 0 auto;
+}
+.blue{
+    /* 메인컬러 */
+    color: #228aff;
+}
+.h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 2rem;
+    margin-left: 0;
+}
+.h3{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 1rem;
+}
+.h4{
+    font-size: 1em;
+    margin: 1rem 0;
+}
+.box{
+    margin: 1rem;
+}
+.radius{
+    border-radius: 10px;
+}
+main section{
+    margin: 5%
+}
+.p{
+    color: #8faed1;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+.textcenter{
+    text-align: center;
+}
+.block{
+    display: block;
+}
+.binbox{
+    flex-direction: column;
+    justify-content: center;
+    border: 0.5px solid #ccc;
+    width: var(--width-of-box);
+    height: var(--height-of-box);
+    padding: 2rem;
+}

@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    height: 6rem;
+    background: white;
+    border: 1px solid #ccc;
+}
+.wrap{
+    padding: 1rem;
+}
+.h1{
+    font-size: 2em;
+    margin: auto 2rem;
+}
+.nav{
+    width: 70%;
+}
+.lnb{
+    font-size: 1em;
+    color: #ccc;
+}
+.gnb{
+    font-size: 1em;
+    font-weight: 600;
+}
+.header li{
+    margin: 1rem;
+}
+.pf_name{
+    margin-right: 0.5em;
+}
+.pf_icon{
+    margin-right: 0.5em;
+}
+.pf{
+    display: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
