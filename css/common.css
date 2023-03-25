@@ -24,11 +24,11 @@ body{
     font-size: 1.2em;
     font-weight: 700;
     line-height: 1.5em;
-    margin: 1rem;
 }
 .h4{
     font-size: 1em;
     margin: 1rem 0;
+    font-weight: 700;
 }
 .box{
     margin: 1rem;
@@ -37,7 +37,7 @@ body{
     border-radius: 10px;
 }
 main section{
-    margin: 5%
+    margin: 5%;
 }
 .p{
     color: #8faed1;
@@ -47,6 +47,9 @@ main section{
 }
 .textcenter{
     text-align: center;
+}
+.testleft{
+    text-align: left;
 }
 .block{
     display: block;
