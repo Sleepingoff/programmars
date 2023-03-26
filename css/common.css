@@ -31,13 +31,16 @@ body{
     font-weight: 700;
 }
 .box{
+    margin: 1rem 0;
+}
+.habox{
     margin: 1rem;
 }
 .radius{
     border-radius: 10px;
 }
-main section{
-    margin: 5%;
+section{
+    margin: 10% 3%;
 }
 .p{
     color: #8faed1;

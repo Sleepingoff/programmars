@@ -1,35 +1,62 @@
 .header{
     width: 100%;
-    height: 6rem;
+    height: 4rem;
     background: white;
     border: 1px solid #ccc;
 }
 .wrap{
-    padding: 1rem;
+    height: 100%;
+    margin: 0 3%;
 }
 .h1{
-    font-size: 2em;
+    font-size: 1.5em;
     margin: auto 2rem;
+    position: relative;
+    vertical-align: bottom;
+    font-weight: 800;
+}
+.logoicon::before{
+    content: "";
+    display: block;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    bottom: 0; left: -1em;
 }
 .nav{
     width: 70%;
 }
+.nav.va.flexbox {
+  align-items: center;
+}
 .lnb{
-    font-size: 1em;
-    color: #ccc;
+    font-size: 0.9em;
+    color: #eaeaea;
 }
 .gnb{
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
 }
-.header li{
+.nav li{
     margin: 1rem;
 }
+.profile{
+    justify-content: center;
+    align-items: center;
+}
 .pf_name{
-    margin-right: 0.5em;
+    margin-left: 6em;
+    width: 4rem;
+    font-size: 0.9em;
 }
 .pf_icon{
     margin-right: 0.5em;
+}
+.pf_icon img{
+    width: 1.5em;
 }
 .pf{
     display: none;
