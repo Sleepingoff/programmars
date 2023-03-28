@@ -1,12 +1,13 @@
-.header{
+header{
     width: 100%;
-    height: 4rem;
-    background: white;
-    border: 1px solid #ccc;
+    justify-content: space-between;
 }
 .wrap{
-    height: 100%;
-    margin: 0 3%;
+    width: calc(100% - 25%);
+    height: 4rem;
+    padding-left: 3%;
+    background: white;
+    border-bottom: 1px solid #ccc;
 }
 .h1{
     font-size: 1.5em;
@@ -27,29 +28,43 @@
     bottom: 0; left: -1em;
 }
 .nav{
-    width: 70%;
+    width: 100%;
+    height: 4rem;
+    background: white;
+    border-bottom: 1px solid #ccc;
 }
-.nav.va.flexbox {
-  align-items: center;
+.nav div{
+    width: calc(50%-4rem);
+}
+.gnb{
+    font-size: 1.1em;
+    font-weight: 600;
+    width: 260px;
+}
+.gnb li{
+    margin: 1rem;
 }
 .lnb{
     font-size: 0.9em;
     color: #eaeaea;
 }
-.gnb{
-    font-size: 1.1em;
-    font-weight: 600;
+.lnb li{
+    margin: 0 0.5rem;
 }
-.nav li{
-    margin: 1rem;
+.pro {
+    width: 35%;
+    justify-content: space-around;
+    height: 4rem;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+.pro li{
+    margin: 0.25em;
 }
 .profile{
-    justify-content: center;
     align-items: center;
 }
 .pf_name{
-    margin-left: 6em;
-    width: 4rem;
     font-size: 0.9em;
 }
 .pf_icon{
@@ -59,9 +74,10 @@
     width: 1.5em;
 }
 .pf{
-    display: none;
-    border: 1px solid black;
+    border: 0.5px solid #ccc;
     border-radius: 50%;
     width: 2rem;
-    height: 2rem;
+}
+.pf img {
+  width: 100%;
 }

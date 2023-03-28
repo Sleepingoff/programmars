@@ -1,0 +1,49 @@
+@media screen and (max-width: 950px){
+    /* common */
+    .h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 1rem;
+        margin-left: 0;
+    }
+    /* header */
+    header{
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .wrap{
+        width: 100%;
+        padding: 0;
+    }
+    .gnb{
+        width: 100%;
+    }
+    .lnb{
+        width: 100%;
+    }
+    .logoicon{
+        display: absolute;
+        z-index: 1;
+    }
+    .pro{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 15%;
+    }
+    .pf{
+        display: block;
+        width: 2rem;
+    }
+    .pf_name{
+        display: none;
+    }
+    /* main */
+    main{
+        font-size: 0.8em;
+    }
+    /* section3 */
+    .wanted{
+        width: 100%;
+    }
+}

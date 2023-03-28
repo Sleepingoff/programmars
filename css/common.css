@@ -1,6 +1,9 @@
 body{
     font-size: 16px;
 }
+.hide{
+    display: none;
+}
 .flexbox{
     display: flex;
 }

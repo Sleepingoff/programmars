@@ -104,6 +104,7 @@
     font-weight: 600;
     font-size:1em;
 }
+/* section3 */
 .button_w{
     width: 300px;
 }
@@ -142,6 +143,12 @@
     justify-content: space-around;
     align-items: center;
 }
+.info1 {
+  justify-content: center;
+}
+.info2 {
+  justify-content: center;
+}
 .info1::after{
     content:"";
     display: block;
@@ -170,22 +177,36 @@
     content: ">";
     margin-left: 1em;
 }
+.counticon::after{
+    content: "0";
+    margin-left: 1em;
+    padding: 0.2em 0.5em;
+    border-radius: 50%;
+    background: black;
+    font-size: 0.8em;
+    color: white;
+}
 .wanted{
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    justify-content: left;
     align-items: center;
+    width: fit-content;
 }
 .wanted li{
     background: #fff3e0;
     padding: 1rem;
-    width: calc(25% - 1em);
-    height: 184px;
+    width: 440px;
+    height: 270px;
     background-image: url("../img/wallet.png");
-    background-size: contain;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 1em 0;
+    margin: 1em;
     position: relative;
+    transition: all 0.2s;
+}
+.wanted li:hover{
+    background-size: 75%;
 }
 .wanted li:nth-child(2){
     background-color: #e0f2f1;
