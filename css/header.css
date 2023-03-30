@@ -3,7 +3,7 @@ header{
     justify-content: space-between;
 }
 .wrap{
-    width: calc(100% - 25%);
+    width: 65%;
     height: 4rem;
     padding-left: 3%;
     background: white;
@@ -32,9 +32,6 @@ header{
     height: 4rem;
     background: white;
     border-bottom: 1px solid #ccc;
-}
-.nav div{
-    width: calc(50%-4rem);
 }
 .gnb{
     font-size: 1.1em;
