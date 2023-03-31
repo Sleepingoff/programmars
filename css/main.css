@@ -90,8 +90,7 @@
     background-position: right;
 }
 .button{
-    grid-area: button;
-    align-self: self-end;
+    align-self:center;
     border: 0.5px solid #ccc;
     border-radius: 5px;
     background: #fbfbfd;
@@ -105,7 +104,7 @@
     width: 300px;
 }
 .apply{
-    margin: 5% 0;
+    margin: 3% 0;
 }
 .apply>.flexbox::nth-of-type(n+2):nth-of-type(-n+3){
     justify-content: left;
@@ -113,8 +112,11 @@
     flex-wrap: nowrap;
 }
 .applybox{
-    width: 380px;
+    width: 600px;
     margin: 0.5rem;
+}
+.apply750.flexbox {
+  justify-content: space-between;
 }
 .works{
     border-bottom: 0.5px solid #ccc;
