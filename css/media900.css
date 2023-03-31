@@ -75,7 +75,7 @@
 
     .binbox {
         padding: 1rem;
-        justify-content: space-between;
+        /*! justify-content: space-between; */
     }
 
     span.hide {
@@ -86,10 +86,14 @@
     .button_w{
         width: 100%;
     }
-    .wanted {
-        width: 100%;
+    .wanted li a h3::before{
+        content: "";
+        display: block;
     }
-
+    .wanted li a{
+       display: flex;
+       flex-direction: column;
+    }
     .pinbox {
         padding: 0.5rem;
     }
