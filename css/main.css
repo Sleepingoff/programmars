@@ -58,15 +58,12 @@
 }
 .gotoclass{
     color: white;
-    display: grid;
-    grid-template-columns: auto 100px;
-    grid-template-rows: auto 3em;
-    grid-template-areas: 
-    "intoclass icon"
-    "button button";
+    display: flex;
     width: var(--width-of-box);
     height: var(--height-of-box);
     padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .gotoclass1{
     background: linear-gradient(45deg, #00e0be, #1776c6);
@@ -80,18 +77,17 @@
     margin: 1rem 0;
 }
 .intoclass{
-    grid-area: intoclass;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .icon{
-    grid-area: icon;
+    height: 100%;
     width: 100%;
     background-image: url("../img/puzzle.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: 42%;
+    background-position: right;
 }
 .button{
     grid-area: button;
@@ -111,7 +107,7 @@
 .apply{
     margin: 5% 0;
 }
-.apply>.flexbox{
+.apply>.flexbox::nth-of-type(n+2):nth-of-type(-n+3){
     justify-content: left;
     align-items: center;
     flex-wrap: nowrap;

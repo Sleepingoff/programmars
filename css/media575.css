@@ -1,0 +1,55 @@
+@media screen and (max-width: 575px){
+    /* 모바일 사이즈 */
+    /* header - logo */
+    .h1{
+       display: none;
+    }
+    .logoicon{
+        margin-right: 2rem;
+    }
+    .pro{
+        right: 1em;
+    }
+    /* before를 다시 보이게 하기 위해서는 어떻게 해야할까?
+    결국 background에서 img 태그로 바꿈... 로고니까.. 
+    로고와 타이틀이 같이 사라지고
+    gnb 옆에 before에 content를 미디어쿼리문에서 준다면
+    미디어쿼리문 조건이 될 때만 before가 나오게 하는 것은?*/
+    /* .gnb::before{
+        content: "";
+        display:block;
+        opacity: 0;
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        position: absolute;
+        transition: all 3s;
+    }
+    .gnb:hover::before{
+        opacity: 1;
+        left: 50px;
+        transform: rotate(45deg);
+    } */
+    /* section2 - width */
+    .s2_box2 > .flexbox{
+        width: 850px;
+    }
+    .gotoclass1{
+        width: 50%;
+    }
+    .gotoclass2{
+        width: 50%;
+    }
+    .wanted{
+        flex-wrap: wrap;
+    }
+    .wanted li{
+        margin-top: 2.5rem;
+    }
+    .service select{
+        margin: 2.5rem 1rem;
+    }
+    footer ul:last-of-type li:last-of-type{
+        font-size: 0.9em;
+    }
+}

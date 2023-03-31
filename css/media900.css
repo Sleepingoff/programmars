@@ -1,0 +1,100 @@
+@media screen and (max-width: 950px) {
+
+    /* common */
+    .h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 1rem;
+        margin-left: 0;
+    }
+
+    /* header */
+    header {
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .wrap {
+        width: 100%;
+        padding: 0;
+    }
+
+    .gnb {
+        width: 100%;
+    }
+
+    .lnb {
+        width: 100%;
+    }
+
+    .lnb.va.flexbox:first-child {
+        margin-left: 0.1em;
+    }
+
+    .logoicon {
+        display: absolute;
+        z-index: 1;
+    }
+
+    .pro {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 15%;
+    }
+
+    .pf {
+        display: block;
+        width: 2rem;
+    }
+
+    .pf_name {
+        display: none;
+    }
+
+    /* main */
+    main {
+        font-size: 0.8em;
+    }
+
+    /* sectoin1 */
+    .growth li {
+        padding: 0.3rem 0.5rem;
+        background-size: 33%;
+        background-position: bottom right;
+    }
+
+    /* sectoin2 */
+    .gotoclass {
+        padding: 1rem;
+    }
+
+    .intoclass {
+        width: 100%;
+    }
+
+    .binbox {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+
+    span.hide {
+        display: block;
+    }
+
+    /* section3 */
+    .button_w{
+        width: 100%;
+    }
+    .wanted {
+        width: 100%;
+    }
+
+    .pinbox {
+        padding: 0.5rem;
+    }
+/*     footer */
+    footer .flexbox ul{
+        width: 100%;
+    }
+}

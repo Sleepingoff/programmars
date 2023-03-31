@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/media900.css" />
+    <link rel="stylesheet" href="../css/media750.css">
+    <link rel="stylesheet" href="../css/media575.css">
   </head>
   <body>
     <header class="flexbox">
       <div class="wrap flexbox">
-        <h1 class="h1 logoicon">programmars</h1>
+        <figure>
+          <figcaption class="hide">logo</figcaption>
+          <img class="logoicon" src="../img/logo.png" alt="">
+        </figure>
+        <h1 class="h1">programmars</h1>
         <ul class="gnb va flexbox">
           <li><a href="">스쿨</a></li>
           <li><a href="">커리어</a></li>
@@ -47,7 +53,7 @@
     <main>
       <section id="section1">
         <h2 class="h2">
-          <span class="blue">이지현님</span>의 성장 여정이에요.
+          <span class="blue">이지현님</span>의<span class="hide2"></span> 성장 여정이에요.
         </h2>
         <div>
           <ul class="growth flexbox">
@@ -80,11 +86,11 @@
         <div class="bluebox radius"></div>
       </section>
       <section id="section2">
-        <h2 class="h2">클린 코드 비법을 알려 줄게요.</h2>
+        <h2 class="h2">클린 코드 비법을 <span class="hide2"></span>알려 줄게요.</h2>
         <div class="flexbox">
           <div class="s2_box1">
             <h3 class="h3 box counticon">수강 현황</h3>
-            <div class="binbox radius textcenter">
+            <div class="binbox radius textcenter flexbox">
               <p class="p pinbox">
                 열심히 컨텐츠 준비중이에요.<span class="block"></span
                 >프로그래머스의 다양한 코스를 탐색해보세요!
@@ -96,21 +102,19 @@
             <h3 class="h3 box pointicon">추천 강의</h3>
             <div class="flexbox">
               <div class="gotoclass gotoclass1 habox radius">
-                <div class="intoclass">
-                  <h3 class="h3">코딩테스트 연습 힌트 모음집</h3>
+                <div class="intoclass  icon">
+                  <h3 class="h3">코딩테스트 연습 힌트 <span class="hide"></span>모음집</h3>
                   <p class="price">무료</p>
                 </div>
-                <div class="icon"></div>
                 <button class="button" type="button">강의 보러 가기</button>
               </div>
               <div class="gotoclass gotoclass2 habox radius flexbox">
-                <div class="intoclass">
+                <div class="intoclass icon">
                   <h3 class="h3">
-                    [Git] 개발을 하면서 필요한 협업기술 중 git 던전 공략법
+                    [Git] 개발을 하면서 <span class="hide"></span>필요한 협업기술 중 <span class="hide"></span>git 던전 공략법
                   </h3>
                   <p class="price">무료</p>
                 </div>
-                <div class="icon"></div>
                 <button class="button" type="button">강의 보러 가기</button>
               </div>
             </div>
@@ -118,10 +122,10 @@
         </div>
       </section>
       <section id="section3">
-        <h2 class="h2">잘나가는 개발자가 되어보세요.</h2>
+        <h2 class="h2">잘나가는 개발자가 <span class="hide2"></span>되어보세요.</h2>
         <div class="apply">
           <h3 class="h3 box pointicon">내가 접수한 채용 프로그램</h3>
-          <div class="binbox box radius textcenter">
+          <div class="binbox box radius textcenter flexbox">
             <p class="p pinbox">
               프로그래머스만의<span class="block"></span>특별한 채용 프로그램에
               참여해보세요!
@@ -135,7 +139,7 @@
           <h3 class="h3 box pointicon">
             <span class="blue">다른 개발자</span>들이 많이 지원한 포지션
           </h3>
-          <div class="flexbox">
+          <div class="apply750 flexbox">
             <a href="">
               <div class="applybox binbox radius textcenter">
                 <div class="works flexbox">
@@ -209,7 +213,7 @@
         </div>
         <div class="apply">
           <h3 class="h3 box pointicon">내가 지원한 포지션</h3>
-          <div class="binbox box radius textcenter">
+          <div class="binbox box radius textcenter flexbox">
             <p class="p pinbox">
               새로운 채용공고가 있어요!<span class="block"></span>요즘 뜨는
               포지션 보러갈까요?

@@ -1,0 +1,58 @@
+@media screen and (max-width: 750px){
+    /* header - margin, font-size*/
+    header{
+        font-size: 0.85em;
+    }
+    .gnb li{
+        margin: 0.35rem;
+    }
+    /* main */
+    /* section - title */
+    .hide2{
+        display: block;
+    }
+    .h2{
+        line-height: 1.5;
+    }
+    /* section1 - flex-wrap */
+    .growth{
+        flex-wrap: wrap;
+    }
+    .growth li{
+        width: calc(50% - 0.35rem);
+    }
+    /* section2 - layout */
+    #section2>div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .s2_box1{
+        width: 100%;
+    }
+    .s2_box2{
+        width: 100%;
+        margin: 0;
+    }
+    /* section3 - apply */
+    .binbox{
+        height: 280px;
+    }
+    .button_w{
+        height: 50px;
+    }
+    .apply750{
+        width: 1100px;
+    }
+    /* 의도적으로 영역에서 넘치게 만드는 게 어렵다. */
+    .applybox{
+        height: 230px;
+        width: 100%;
+    }
+    .works{
+        padding: 0;
+    }
+    .infos{
+        margin: 0;
+    }
+    /* footer no change */
+}

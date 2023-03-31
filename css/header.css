@@ -1,6 +1,8 @@
 header{
     width: 100%;
     justify-content: space-between;
+    position: relative;
+    z-index: 10;
 }
 .wrap{
     width: 65%;
@@ -16,16 +18,11 @@ header{
     vertical-align: bottom;
     font-weight: 800;
 }
-.logoicon::before{
-    content: "";
-    display: block;
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 0.8em;
-    height: 0.8em;
-    position: absolute;
-    bottom: 0; left: -1em;
+.logoicon{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    top: 1.5rem; left: 1.5rem;
 }
 .nav{
     width: 100%;
