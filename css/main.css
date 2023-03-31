@@ -2,6 +2,9 @@
     --width-of-box: 100%;
     --height-of-box: 320px;
 }
+section{
+    overflow:hidden;
+}
 .growth{
     flex-wrap: wrap;
     justify-content: space-between;
