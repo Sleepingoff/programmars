@@ -1,4 +1,4 @@
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
 
     /* common */
     .h2 {
@@ -56,6 +56,9 @@
     main {
         font-size: 0.8em;
     }
+    .binbox{
+        width: var(--width-of-box);
+    }
 
     /* sectoin1 */
     .growth li {
@@ -73,30 +76,39 @@
         width: 100%;
     }
 
-    .binbox {
-        padding: 1rem;
-        /*! justify-content: space-between; */
-    }
-
     span.hide {
         display: block;
     }
 
     /* section3 */
     .button_w{
-        width: 100%;
+        width: var(--width-of-box);
     }
-    .wanted li a h3::before{
-        content: "";
-        display: block;
+    /*     전체 절대높이를 바꿔주고 안에 있는 상대너비는 건들지 않아도 됨 */
+    .wanted{
+        height: 300px;
+    }
+    .wanted li{
+       margin-right: 4.5rem;
     }
     .wanted li a{
        display: flex;
        flex-direction: column;
+       width: 200px;
+    }
+    .wanted li a div{
+        width: 100%;
     }
     .pinbox {
         padding: 0.5rem;
     }
+    .apply750{
+        overflow-x: scroll;
+    }
+    .applybox.binbox{
+        margin-right: 1rem;
+    }
+
 /*     footer */
     footer .flexbox ul{
         width: 100%;
