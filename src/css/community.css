@@ -1,0 +1,58 @@
+#ad > div.wrap{
+    flex-direction: column;
+    padding: 20px;
+}
+#ad div.radius{
+    background: #707df3;
+    width: 260px;
+    height: 360px;
+    padding: 24px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#ad div.radius h3{
+    color: #ffffff;
+}
+#ad div.radius p{
+    color: #e2e5fc;
+    text-align: left;
+    margin-top: 1em;
+}
+#ad div.radius:nth-of-type(1) h3::before{
+    content: "내일배움코스";
+    display: block;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 2;
+    background-color: #6068af;
+    width: 50%;
+}
+#ad div.radius:nth-of-type(1) p::after{
+    content: "";
+    display: block;
+    background-image: url(https://grepp-programmers.s3.amazonaws.com/production/file_resource/3141/PRGMS_Community-Banner_KDC_260x170___1_.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140%;
+    width: 100%;
+    height: calc(360px / 2 );
+}
+#ad div.radius:nth-of-type(2){
+    background-color: #f7f7fb;
+    align-items: center;
+}
+#ad div.radius:nth-of-type(2) h3{
+    color: #000000;
+}
+#ad div.radius:nth-of-type(2) p{
+    color: #263747;
+}
+#ad div.radius:nth-of-type(2) button{
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 36px;
+    border-radius: 5px;
+}

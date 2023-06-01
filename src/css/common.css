@@ -41,6 +41,9 @@ body{
     min-width: 150px;
     text-align: left;
 }
+.bold{
+    font-weight: bold;
+}
 .box{
     margin: 1rem 0;
 }

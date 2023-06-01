@@ -248,16 +248,3 @@ footer .flexbox{
     justify-content: space-between;
     align-items: baseline;
 }
-footer{
-    font-size: 0.8em;
-    line-height: 1.5;
-}
-.pcolor{
-    color: #8faed1;
-}
-.service select{
-    background: white;
-    border: 0.5px solid #ccc;
-    border-radius: 2px;
-    margin: 2.5em;
-}
